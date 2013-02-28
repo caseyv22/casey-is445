@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Casey Villanueva</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+    	<p>Villanueva, Casey Homework 3</p>
+    </header>
+  
+    <hr/>
+    <nav>
+    	<a href="index.html">Home</a>
+        <a href="webdemo.html">Web Form Demo</a>
+        <a href="about.html">About Me</a>
+    </nav>
+    
+    <table class="Body">
+    	<tr>
+         <td>
+    <p>Welcome to my web form<br>
+    This is a sample hotel reservation</p>
+    
+    <form action="mailto:caseyvillanueva@gmail.com" class="formfront" method="post" enctype="text/plain" width="600px">
+    <fieldset>
+    	<legend>Customer Information</legend>        Full Name:<input type="text" id="CustInfo" name="fullname" />
+
+        <br/>
+        E-mail:<input type="email" id="CustInfo" name="Email" />
+        <br/>
+        Phone number:<input type="tel" id="CustInfo" name="Telephone" />
+        </fieldset>
+    <fieldset>
+        <legend>Room Information</legend>
+        Arrival Date:<input type="date" id="RoomInfo" name="ArrivalDate"/>
+        <br/>
+        Arrival Time:<input type="time" id="RoomInfo" name="ArrivalTime"/>
+        <br/>
+        Select A Room Type:<select id="RoomInfo" name="list"/>
+        	<option>Luxury
+            <option>Standard
+            <option>Economic
+            </select>
+            <br/>
+            Number of Nights (1-30):<input type="number" id="RoomInfo" min="1" max="30"/>
+            <br/>
+            Number of Guests (0-3):<input type="number" id="RoomInfo" min="0" max="3"/>
+          </fieldset>
+     <fieldset>
+     <legend>Other Information</legend>
+     Promo Code:<input type="text" id="OtherInfo" name="Promo"/>
+     <br/>
+     Special Note:<input type="text" id="OtherInfo" name="Notes"/>
+     </textarea>
+     </fieldset>
+     <input type="reset" value="Clear"/>
+     <input type="Submit" Value="Reserve"/>
+    </fieldset>
+    </form>
+    </td>
+    	</tr>
+        </table>
+    
+    <footer>
+    	<hr/>
+    	<address>
+        	<p>(c) Casey Villanueva casey.villanueva@student.csulb.edu 818-572-5974</p>
+        </address>
+    </footer>
+</body>
+</html>
