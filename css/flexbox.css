@@ -1,0 +1,12 @@
+﻿body
+{
+	  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+
+  display: box;
+  box-orient: horizontal;
+}
+}

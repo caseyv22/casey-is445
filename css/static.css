@@ -1,0 +1,74 @@
+﻿body
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:720px;
+}
+
+header
+{
+	width:720px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	height:50px;
+	
+}
+
+nav 
+{
+	width:720px;
+	background-color:green;
+	color:white;
+	text-align:center;
+	height:25px;
+}
+
+nav li
+{
+	display:inline;
+}
+
+nav a:link
+{
+	text-decoration:none;
+	color:white;
+	margin:5px;
+}
+
+article
+{
+	max-width:66%;
+	color:white;
+	text-align:center;
+	background-color:pink;
+	height:200px;
+
+}
+
+article section
+{
+	background-color:brown;
+	height:50px;
+	color:white;
+	margin:20px 0px 20px;
+
+}
+
+aside
+{
+	max-width:34%;
+	background-color:cyan;
+	color:white;
+	text-align:center;
+	height:200px;
+}
+
+footer
+{
+	width:720px;
+	background-color:blue;
+	text-align: center;
+	color:white;
+	height:25px;
+}

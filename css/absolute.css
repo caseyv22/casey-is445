@@ -1,0 +1,15 @@
+﻿body
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:720px;
+}
+
+
+aside
+{
+	position:absolute;
+	left: 59%;
+	top: 75px;
+	width: 245px;
+}
